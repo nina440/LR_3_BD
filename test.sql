@@ -19,7 +19,7 @@ CREATE TABLE `Brrowers` (
   `contractsList` TEXT,
 );
 
-INSERT INTO `Individuals` (`taxID`, `entityType`, `addressName`, `amount`, `conditions`, `legalNotes`, `contractsList`) VALUES
+INSERT INTO `Brrowers` (`taxID`, `entityType`, `addressName`, `amount`, `conditions`, `legalNotes`, `contractsList`) VALUES
 ('12345678922', 'Физ. лицо', 'г. Омск ул. 2-я Поселковая 12', '100000', 'Условия...', 'Юр. примечания...', 'Документы...'),
 ('80987654321', 'Юр. лицо', 'г. Санкт-Петербург ул. Звездная 14', '1200000', 'Условия...', 'Юр. примечания...', 'Документы...'),
 ('10293848576', 'Юр. лицо', 'г. Омск ул. Ленина 17', '2000000', 'Условия...', 'Юр. примечания...', 'Документы...'),
